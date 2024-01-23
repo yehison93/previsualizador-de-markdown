@@ -1,0 +1,22 @@
+¡Claro! Te estás embarcando en un proyecto para crear un previsualizador de Markdown. Aquí te explico los requisitos del proyecto:
+
+1. **Objetivo**: Tu aplicación debe ser funcionalmente similar a esta: [markdown-previewer.freecodecamp.rocks](https://markdown-previewer.freecodecamp.rocks/).
+
+2. **Tecnologías a utilizar**: Puedes usar una combinación de HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux y jQuery para completar este proyecto. Se recomienda usar un framework de frontend como React.
+
+3. **Historias de usuario**: Tu aplicación debe cumplir con las siguientes historias de usuario:
+
+   - **Historia de usuario #1**: Debe haber un elemento con un id correspondiente de "editor".
+   - **Historia de usuario #2**: Debe haber un elemento con un id correspondiente de "preview".
+   - **Historia de usuario #3**: Cuando ingreses texto en el elemento #editor, el elemento #preview debe actualizarse a medida que escribes para mostrar el contenido del textarea.
+   - **Historia de usuario #4**: Cuando ingreses Markdown con formato de GitHub en el elemento #editor, el texto se debe renderizar como HTML en el elemento #preview a medida que escribes. Puedes importar la biblioteca Marked para esto.
+   - **Historia de usuario #5**: Cuando tu previsualizador de Markdown se carga por primera vez, el texto predeterminado en el campo #editor debe contener Markdown válido que represente al menos uno de cada uno de los siguientes elementos: un elemento de encabezado (tamaño H1), un subencabezado (tamaño H2), un enlace, código en línea, un bloque de código, un elemento de lista, una cita en bloque, una imagen y texto en negrita.
+   - **Historia de usuario #6**: Cuando tu previsualizador de Markdown se carga por primera vez, el Markdown predeterminado en el campo #editor debe renderizarse como HTML en el elemento #preview.
+
+4. **Bonus opcional**: Tu previsualizador de Markdown puede interpretar retornos de carro y renderizarlos como elementos de salto de línea.
+
+5. **Pruebas**: Puedes construir tu proyecto utilizando la plantilla de CodePen proporcionada y haciendo clic para crear tu propio bolígrafo. O puedes usar este enlace CDN para ejecutar las pruebas en cualquier entorno que te guste: [bundle.js](https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js)
+
+6. **Entrega**: Una vez que hayas terminado, debes enviar la URL de tu proyecto en funcionamiento con todas sus pruebas aprobadas.
+
+Espero que esto te ayude a entender mejor lo que debes hacer. ¡Feliz codificación! 😊
